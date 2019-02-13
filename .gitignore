@@ -1,0 +1,119 @@
+
+# Created by https://www.gitignore.io/api/windows,salesforce,salesforcedx,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=windows,salesforce,salesforcedx,visualstudiocode
+
+### Salesforce ###
+# GitIgnore for Salesforce Projects
+# Project Settings and MetaData
+.project
+.settings/
+.metadata
+build.properties
+config
+
+# Apex Log as optional
+apex-scripts/log
+
+# Eclipse specific
+salesforce.schema
+Referenced Packages
+bin/
+tmp/
+config/
+*.tmp
+*.bak
+local.properties
+.settings
+.loadpath
+.classpath
+*.cache
+
+# Illuminated Cloud (IntelliJ IDEA)
+IlluminatedCloud
+out
+.idea
+*.iml
+
+# Mavensmate
+*.sublime-project
+*.sublime-settings
+*.sublime-workspace
+mm.log
+
+# Haoide SublimeText
+.config
+.deploy
+.history
+
+# OSX-specific exclusions
+.[dD][sS]_[sS]tore
+
+# The Welkin Suite specific
+**/.localHistory
+
+*.sfuo
+
+TestCache.xml
+
+TestsResultsCache.xml
+
+### SalesforceDX ###
+# GitIgnore for Salesforce Projects
+# Project Settings and MetaData
+
+# Apex Log as optional
+
+# Eclipse specific
+
+# Illuminated Cloud (IntelliJ IDEA)
+
+# Mavensmate
+
+# Haoide SublimeText
+
+# OSX-specific exclusions
+
+# The Welkin Suite specific
+
+
+
+
+### SalesforceDX Patch ###
+.sfdx
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/windows,salesforce,salesforcedx,visualstudiocode
